@@ -130,7 +130,7 @@ const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
 
 function randomNumber(min, max) {
-  const number = Math.floor(Math.random() * (max - min + 1)) + min;
+  const number = Math.floor(Math.random() * (max - min)) + min;
   return number;
 }
 
